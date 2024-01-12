@@ -4,3 +4,17 @@ div{
     padding: 10px;
     margin: 10px;
 }
+nav  ul  li{
+    background-color: chartreuse;
+    display: flex;
+
+}
+nav li a{
+    list-style: none;
+}
+nav ul{
+    text-align: center;
+}
+nav li:hover{
+    background-color: red;
+}

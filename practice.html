@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+        color: red;
+    }
+    h1:hover{
+        color: black;
+        background-color: aquamarine;
+    }
+    input:focus{
+        padding: 10px;
+        outline: 0;
+        color: blueviolet;
+    }
+    a:visited{
+        color:azure
+    } 
+    /* li:first-child{
+        color: rebeccapurple;
+    } */
+    /* li:last-child{
+        color: darkblue;
+    } */
+    li:nth-child(2n){
+        color: indianred;
+    }
+    
+    .swim-container{
+        position: relative;
+        width: 200px;
+    }
+    .box{
+        border: 1px solid green;
+        width: 200px;
+        height: 100px;
+    }
+    .dummy{
+        border: 1px dotted rgb(14, 14, 1);
+        width: 200px;
+        height: 50px;
+    }
+    .another{
+        border: 1px dashed brown
+        width: 200px;
+    }
+    /* .ring{
+        position: absolute;
+        top:25px;
+        left:100px;
+    } */
+    /* .ring{
+        position: sticky;
+        top: 50px;
+    } */
+    .ring{
+        position: fixed;
+        top:0px;
+    }
+
+    </style>
+</head>
+<body>
+    <h1>kazi pial hasan borno</h1>
+    <input type="text" name="" id="">
+    <input type="text" name="" id="">
+    <input type="text" name="" id="">
+
+    <a href="https://www.youtube.com/">youtube</a>
+    <a href="https://www.google.com/"> google</a>
+
+    <ul>
+        <li>kalia</li>
+        <li>palaia</li>
+        <li>jalaia</li>
+        <li>talaiya</li>
+        <li>khaiyyaa</li>
+    </ul>
+
+    <ol>
+         <li>static</li>
+         <li>relative</li>
+         <li>absolute</li>
+         <li>sticky</li>
+         <li>fixed</li>
+    </ol>
+
+    <div class="swim-container">
+        <div class="box boy">
+            <img src="images/swim/boy.svg" alt="">
+        </div>
+        <div class="box ring ">
+            <img src="images/swim/ring.svg" alt="">
+        </div>
+        <div class="box swim">
+            <img src="images/swim/water.svg" alt="">
+        </div>
+    </div>
+
+    <div class="dummy"></div>
+    <div class="dummy"></div>
+    <div class="dummy"></div>
+    <div class="dummy"></div>
+    <div class="dummy"></div>
+
+    <div class="another">
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+    </div>
+
+    <div>
+        <div class="swim-container">
+            <div class="box boy">
+                <img src="images/swim/boy.svg" alt="">
+            </div>
+            <div class="box rings">
+                <img src="images/swim/ring.svg" alt="">
+            </div>
+            <div class="box swim">
+                <img src="images/swim/water.svg" alt="">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
