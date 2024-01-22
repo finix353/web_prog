@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+     .image-container{
+        border: 1px solid tomato;
+        margin: 0 auto;
+        max-width: 1174px;
+     }
+     .image-container div{
+        width: 50%;
+     }
+     .image-container img{
+        width: 100%;
+     }
+     @media screen and (max-width:576px){
+        .image-container{
+            flex-direction: column-reverse;
+        }
+        .image-container div{
+            width: 100%;
+        }
+     }
+    </style>
+</head>
+<body>
+    <div class="image-container">
+        <div>
+        <img src="images/travel.jpeg" alt="">
+        </div>
+        <div>
+            <img src="images/fruits.jpg" alt="">
+        </div>
+    </div>
+</body>
+</html>

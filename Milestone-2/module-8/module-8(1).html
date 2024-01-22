@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            display: flex;
+            gap: 20px;
+        }
+        .box{
+            background-color: blue;
+            padding: 20px;
+            border-radius: 20px;
+        }
+        .container2{
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .item{
+            background-color: bisque;
+            border: 1px solid tomato;
+            width: 100px;
+            height: 100px;
+        }
+        @media screen and (max-width:576px) {
+            .container{
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h3>flexible Flex</h3>
+     <div class="container">
+        <div class="box">
+            <h3>first-box</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore minus amet minima eum consequuntur accusantium doloremque perspiciatis expedita est neque.</p>
+        </div>
+        <div class="box">
+            <h3>second-box</h3>
+            <p>Sint deserunt vel sunt reprehenderit atque, provident molestiae neque doloribus hic cumque? Culpa laborum qui illo nostrum, perferendis consequatur voluptas?</p>
+        </div>
+     </div>
+     <div class="container2">
+        <div class="item">item - 1</div>
+        <div class="item">item - 2</div>
+        <div class="item">item - 3</div>
+        <div class="item">item - 4</div>
+        <div class="item">item - 5</div>
+        <div class="item">item - 6</div>
+        <div class="item">item - 7</div>
+        <div class="item">item - 8</div>
+        <div class="item">item - 9</div>
+        <div class="item">item - 10</div>
+     </div>
+</body>
+</html>
